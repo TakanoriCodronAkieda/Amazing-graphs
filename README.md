@@ -3,12 +3,13 @@
 This program aims to plot prime numbers in an interesting way.  
 The plotting follow the equation y = x - decimal(reverse(binary(x))) where x is any prime number.  
 ```
-  For x = 47:
-  y = 47 - decimal(reverse(binary(47)))
-  y = 47 - decimal(reverse(101111)) --> binary of 47 is 101111  
-  y = 47 - decimal(111101) --> reverse of '101111' is '111101' (same as reading from right to left)  
-  y = 47 - 61 --> decimal of 111101 if 61  
-  y = -14
+  Example:  
+    For x = 47:
+    y = 47 - decimal(reverse(binary(47)))
+    y = 47 - decimal(reverse(101111)) --> binary of 47 is 101111  
+    y = 47 - decimal(111101) --> reverse of '101111' is '111101' (same as reading from right to left)  
+    y = 47 - 61 --> decimal of 111101 if 61  
+    y = -14
 ```
 
 ## How to use it
