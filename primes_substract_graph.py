@@ -24,5 +24,5 @@ def first_primes(how_many=5):
 X = first_primes(10000)
 Y = [equation(prime) for prime in X]
 
-plt.scatter(X, Y, s=1)
+plt.scatter(X, Y, s=0.2)
 plt.show()
