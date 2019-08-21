@@ -10,6 +10,7 @@ The plotting follow the equation y = x - decimal(reverse(binary(x))) where x is 
     y = 47 - decimal(111101) --> reverse of '101111' is '111101' (same as reading from right to left)  
     y = 47 - 61 --> decimal of 111101 if 61  
     y = -14
+  You would therefore plot a point at (47; -14)
 ```
 
 ## How to use it
