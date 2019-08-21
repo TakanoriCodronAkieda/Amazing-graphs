@@ -1,9 +1,9 @@
-## This program has been inspired by the following video from numberphile --> https://www.youtube.com/watch?v=pAMgUB51XZA
-## Note that the code is not meant to be optimized but is just a way to quickly visualise the graphs shown in the video
-## Don't hesitate to submit a pull request if you have a more efficient code to find prime numbers
-## The code requires matplotlib
+## This program is inspired by the following video from numberphile --> https://www.youtube.com/watch?v=pAMgUB51XZA
 
 from matplotlib import pyplot as plt
+
+def equation(prime):
+    return prime - int(bin(prime)[-1:1:-1], 2)
 
 def first_primes(how_many=5):
     primes = [2]
@@ -22,7 +22,7 @@ def first_primes(how_many=5):
 
 
 X = first_primes(10000)
-Y = [prime - int(bin(prime)[-1:1:-1], 2) for prime in X]
+Y = [equation(prime) for prime in X]
 
 plt.scatter(X, Y, s=1)
 plt.show()
