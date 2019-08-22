@@ -2,7 +2,7 @@
 
 from matplotlib import pyplot as plt
 
-def equation(prime):
+def plotted_function(prime):
     return prime - int(bin(prime)[-1:1:-1], 2)
 
 def first_primes(how_many=5):
