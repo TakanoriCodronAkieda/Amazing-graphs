@@ -2,7 +2,7 @@
 
 This repository aims to plot the graphs shown in Numberphile's 'Amazing graphs' video series.  
 https://www.youtube.com/watch?v=pAMgUB51XZA&   
-https://www.youtube.com/watch?v=o8c4uYnnNnc&
+https://www.youtube.com/watch?v=o8c4uYnnNnc&  
 https://www.youtube.com/watch?v=j0o-pMIR8uk& 
 
 
