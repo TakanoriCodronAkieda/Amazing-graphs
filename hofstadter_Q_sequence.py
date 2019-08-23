@@ -1,4 +1,4 @@
-## This program is inspired by the following video from numberphile --> https://www.youtube.com/watch?v=j0o-pMIR8uk&t=337s
+## This program is inspired by the following video from numberphile --> https://www.youtube.com/watch?v=j0o-pMIR8uk&
 
 from matplotlib import pyplot as plt
 from copy import copy
