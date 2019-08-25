@@ -27,5 +27,5 @@ If you have pip added to your environment PATH, you can simply run 'pip install 
 
 ## Future work
 
-It would be great to have the 'Balanced ternary' and the 'Fire' graph from https://www.youtube.com/watch?v=o8c4uYnnNnc& on this repository in the future.
+It would be great to have the 'Balanced ternary' graph from https://www.youtube.com/watch?v=o8c4uYnnNnc& on this repository in the future.
 
