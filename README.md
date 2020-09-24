@@ -17,13 +17,8 @@ into the command line / terminal of your machine.
 ### Prerequisites
 
 You will need Matplotlib in order to run this code.  
-Matplotlib is a popular python library used to plot data.  
-Here's a link to Matplotlib's official documentation: https://matplotlib.org/
+https://matplotlib.org/
 
-### Installing Matplotlib
-
-If you don't already have pip added to your environment PATH, I recommend that you watch the following tutorial: https://www.youtube.com/watch?v=emYR6vVHxp8  
-If you have pip added to your environment PATH, you can simply run 'pip install matplotlib' to install the library.  
 
 ## Future work
 
